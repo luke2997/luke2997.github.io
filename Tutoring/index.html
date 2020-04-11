@@ -57,29 +57,16 @@
       
       <div class="video-container"><iframe   src=https://www.youtube.com/embed/2oPU7Hs0TVQ frameborder=0 allow=accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture allowfullscreen></iframe></div>
 
+<p><code>A little clip of Graduate level pure mathematics i made for those interested in the idea of Measure Theory</code></p>
+
       
       <!-- reward -->
-      
-      <div id="reward-btn">
-        打赏
-      </div>
       
     </div>
     
     
       <!-- copyright -->
       
-        <div class="declare">
-          <ul class="post-copyright">
-            <li>
-              <i class="ri-copyright-line"></i>
-              <strong>版权声明： </strong s>
-              本博客所有文章除特别声明外，均采用 <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow"
-                target="_blank">Apache License 2.0</a> 许可协议。转载请注明出处！
-            </li>
-          </ul>
-        </div>
-        
     <footer class="article-footer">
       
           
@@ -91,22 +78,6 @@
       <div class="share-wrap">
         <i class="arrow"></i>
         <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
           
           <a class="facebook share-sns" href="javascript:;" data-type="facebook">
             <i class="ri-facebook-circle-fill"></i>
@@ -267,6 +238,10 @@
     </li>
     
     <li class="nav-item">
+      <a class="nav-item-link" href="/PhD">PhD</a>
+    </li>
+    
+    <li class="nav-item">
       <a class="nav-item-link" href="https://luke2997.lofter.com/" target="_blank" rel="noopener">Photos</a>
     </li>
     
@@ -275,11 +250,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/categories">PhD Research</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">About</a>
+      <a class="nav-item-link" href="/2020/about">About</a>
     </li>
     
   </ul>
@@ -312,19 +283,9 @@
 <!-- #reward -->
 <div id="reward">
   <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <p class="reward-p"><i class="ri-cup-line"></i></p>
   <div class="reward-box">
     
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
     
   </div>
 </div>
@@ -472,6 +433,30 @@
     viewer_init()
 </script>
 
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
 
 
 
